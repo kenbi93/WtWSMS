@@ -1,6 +1,6 @@
 ### Theodosian dynasty, inlaws and Stilichos family ###
 1000000 = {
-	name = " Flavius Theodosius"
+	name = "Flavius Theodosius"
 	# Count Theodosius, father of Theodosius I
 	religion = nicene
 	culture = romano_hispanic
@@ -2458,9 +2458,10 @@
 
 1003025 = {
 	name = "Flavius Paulus"
-	# Brother of Emperor Anastasius, consul of 496 abd 497
+	# Brother of Emperor Anastasius, consul of 496 and 497
 	religion = miaphysite
 	culture = illyro_roman
+	father = 36618 # Pompeius
 	mother = 1003024
 	dynasty = 1022195
 	440.1.1 = {
@@ -2584,6 +2585,7 @@
 	# Sister of Emperor Anastasius
 	religion = miaphysite
 	culture = illyro_roman
+	father = 36618 # Pompeius
 	mother = 1003024
 	female = yes
 	dynasty = 1022195
@@ -2636,6 +2638,7 @@
 	# Nephew of Emperor Anastasius, consul of 501
 	religion = miaphysite
 	culture = illyro_roman
+	father = 1300186 # Secundinus
 	mother = 1003032
 	dynasty = 1022195
 	475.1.1 = {
@@ -2651,6 +2654,7 @@
 	# Nephew of Emperor Anastasius, consul of 500 and proclaimed Emperor by the Nika mob
 	religion = miaphysite
 	culture = illyro_roman
+	father = 1300186 # Secundinus
 	mother = 1003032
 	dynasty = 1022195
 	470.1.1 = {
@@ -2666,6 +2670,7 @@
 	# Unnamed brother of Emperor Anastasius
 	religion = miaphysite
 	culture = illyro_roman
+	father = 36618 # Pompeius
 	mother = 1003024
 	dynasty = 1022195
 	445.1.1 = {
@@ -2747,6 +2752,7 @@
 	# Unnamed sister of Emperor Anastasius
 	religion = miaphysite
 	culture = illyro_roman
+	father = 36618 # Pompeius
 	mother = 1003024
 	female = yes
 	dynasty = 1022195
@@ -2828,7 +2834,7 @@
 ### Lowborn Consuls ###
 
 1003500 = {
-	name = "Claudius Iulius Eclesius Dynamius"
+	name = "Claudius Iulius Eclesius Dynamius" #PLRE vol. 2 Claudius Iulius Eclesius Dynamius 2
 	# Consul of 488 and Prefect of Rome in 490
 	religion = nicene
 	culture = roman
@@ -2840,7 +2846,7 @@
 	}
 }
 1003501 = {
-	name = "Rufius Achilius Sividius"
+	name = "Rufius Achilius Sividius" # PLRE vol. 2 Rufius Achilius Sividius
 	# Consul of 488
 	religion = nicene
 	culture = roman
@@ -3162,7 +3168,7 @@
 }
 
 1004008 = {
-	name = "Iustinus"
+	name = "Iustinus" # PLRE vol. 3 Iustinus 4
 	# Consul of 540, son of Germanus
 	religion = nicene
 	culture = illyro_roman
@@ -3171,8 +3177,11 @@
 	525.1.1 = {
 		birth = yes
 	}
-	566.1.1 = {
-		death = yes
+	566.9.1 = { #Shortly preceded the trial and deaths of PLRE vol. 3 Aetherius 2 and Addaeus. They were executed on October 3, 566.
+		death = {
+			death_reason = death_murder
+			killer = 1004005 #empress Sophia
+		}
 	}
 }
 
