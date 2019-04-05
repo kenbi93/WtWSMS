@@ -3,8 +3,11 @@ Next v0.9.X
 
 MAJOR:
 - Compatibility with vanilla 3.0.1.1
+	- Adapted the bloodline of Attila for the mod
+	- Enabled Coronations for Nicene rulers with Pope as a religious head in later game
 
 MINOR:
+- Integrated Ancient Religions v0.43.0 "Sequana", for compatibility with 3.0.1.1
 - Changed the colour of the reformed Zalmoxism religion for it to be more distinguishable from the Germanic religion
 - Added the Pagan County Conquest CB for the Hepthal religion
 - Added the 526 Antioch earthquake event, as suggested by @I_Jedi
@@ -56,7 +59,7 @@ MINOR:
 - Added custom coats of arms for dynasties of Augustus and Diocletian
 - Added four building levels for the biuildings added by the mod and divided bonuses and costs by four
 - Added custom portraits for Constantine the Great, Maxentius, Julian the Apostate, Jovian, Valentinian, Valens, emperors of the Justinian dynasty, Phocas, Heraclius, Anastasius, Zeno, Basiliscus, Leo the Thracian, Marcian, Theodosius I, Arcadius, Theodosius II, Gratianus, Valentinian II, Julius Nepos and Olybrius
-- Added a missing Wikipedia link to emperor Maximian
+- Added some missing Wikipedia links
 - Changed the chariot teams events' picture to one depicting the Hippodrome
 - Added a year 500 condition for the Romance melting-pots events to begin to avoid them from firing only a few years after start when starting at dates before that
 - Added icons for the WtWSMS holy order decisions
@@ -73,15 +76,20 @@ MINOR:
 - Fided Gustow having the same colour as Libya
 - Added an Eastern Roman Imperial Regalia artifact
 - Tweaked the 'Restore the Pontificate Maxima' decision being available for the Latin Empire and not for the Western Roman Empire, as suggested by @Pax Romana
+- Added a few historical bloodlines:
+	- Blood of Augustus
+	- Blood of Constantine
+	- Blood of Gupta
+- Added a reformed version of Eiateuta religion
 
 MAP/HISTORY:
 - Added a fictional Romano-British count in Nantes to represent their local influence even after the end of Riothamus' authority
 - Added new rulers for Cyprus
 - Added historical governors of Osrhoene
 - Added many historical governors of Campania
-- Added three historical governors for Sardinia
+- Added four historical governors for Sardinia
 - Added five historical governors of Dalmatia
-- Added one historical new dux Numidiae
+- Added two historical duces Numidiae
 - Added one historical dux Byzacenae
 - Added Rogatianus, consularis Tusciae suburbicariae, vassal of the WRE in 476
 - Added Sulpicius, bishop of Bourges 584-591
@@ -117,11 +125,11 @@ MAP/HISTORY:
 - Added Pergamius, praefectus augustalis in 482, with his relatives, including John the Silent
 - Added many other historical praefecti augustales
 - Added a few historical governors of Syria Salutaris
-- Added eleven historical governors of Palaestina Prima (Iudea in game)
-- Added two historical duces of Palaestina
+- Added twelve historical governors of Palaestina Prima (Iudea in game)
+- Added five historical duces of Palaestina
 - Added two historical governors of Arabia
-- Added Asiaticus, a historical dux of Phoenice Libanensis
-- Added one historical governor of Phoenice
+- Added three historical duces of Phoenice Libanensis
+- Added two historical governors of Phoenice
 - Added two historical governors of Galatia
 - Added Basilianus Macedonius, historical governor of Rhodope
 - Added two historical governors of Thebais
@@ -165,13 +173,13 @@ MAP/HISTORY:
 - Made the vassal of ERE in Dalmatia in 535 bookmark a governor of Dalmatia instead of exarch of Ravenna
 - Transferred Alexandretta from Oriens to Cilicia to better match both the historical and the mod's de jure territory
 - Fixed duplicate Claudius Iulius Eclesius Dynamius
-- Fixed Pompeius not being the father of Paulus, Caesaria and two other lesser known/fictional siblings of Anastasius
+- Fixed Pompeius not being the father of Paulus, Caesaria and two other lesser known/fictional siblings of Anastasius, and pushed Pompeius's death date to 475, because his youngest child was born in this year
 - Fixed duplicate Rufius Achilius Sividius
 - Fixed the previously created fictional holders of Prus tribe not being used in history of the counties
 - Added a historical marriage between the consul of 510 and the daughter of the consul of 485
 - Made the previously added consul of 519 Eutharic Cilliga actually hold the Senate
 - Added some fictional rulers of the Narvik tribe from Early Bookmarks Submod to make them playable in later starts, credits to @tsf4
-- Added fictional holders for the northern tribes of Mo, Bjarma, Vologda, Roslagen, Pechory, Toropets, Mordvins and Zyriane to make them playable in later starts
+- Added fictional holders for the northern tribes of Mo, Bjarma, Vologda, Roslagen, Pechory, Toropets, Mordvins, Uusimaa, Savo, Aaninen and Zyriane to make them playable in later starts
 - Added fictional holders for the high chiefdom of Rostov to make it playable in later starts
 - Added fictional holders for the high chiefdom of Vladimir to make it playable in later starts
 - Added fictional holders for the high chiefdom of the Lettigalians to make it playable in later starts
@@ -204,6 +212,25 @@ MAP/HISTORY:
 - Added one historical governor of Mauretaniania Caesariensis
 - Added one historical governor of Lusitania
 - Added three historical governors of Tripolitania
+- Fixed Valerius Faltonius Adelfius's wife name
+- Fixed Empress Aelia Eudocia having a wrong spouse added (Flavius Bauto)
+- Fixed age of Flavia Domitilla: she was born 9 years after her mother's death
+- Fixed age of Lucius Septimius Severus: he was born 15 years after his father's death
+- Fixed age of Aurelius Celsinus: he was born when his father was 5 years old
+- Fixed age of Flavius Probinus based on Geni
+- Fixed mother of Vibia Matidia Sabina based on Geni
+- Fixed Bonifacius being father of Sebastianus (his son-in-law)
+- Fixed Sidamic and Abasgian genealogies. Characters were born many years after their parents death
+- Fixed genealogy of Lakhmids (Al-Numan I not being son of Imru al-Qays II because they were born in same date)
+- Fixed genealogy of Quraishites (it may still be imperfect). Before this genealogy had many duplicate characters from vanilla
+- Removed claims of Quintus Aurelius Memmius Symmachus on Papacy
+- Connected Boethius with children and added unused dynasty name for him and his father
+- Added dynasty names for Claudius Iulius Eclesius Dynamius and Rufius Achilius Sividius, which were used by deleted duplicates
+- Added new dynasty names for Gregorius Attalus, Paeionius and Mummolus
+- Fixed age of Odyssius, Moesia Superior holder
+- Fixed age of Gaius Basilius: he was born 25 years after his father's death
+- Fixed wrong dynasties of some characters - few East Slavic and one Alanic in Spain
+- Fixed age of Chlodio: he was born 17 years after his father's death
 - Added nine historical duces of Thebais
 - Added six historical duces et augustales of Alexandria
 - Added nineteen historical Patriarchs of Alexandria
@@ -213,6 +240,18 @@ MAP/HISTORY:
 - Added one historical governor of Samnium
 - Added one historical governor of Pannonia Secunda
 - Removed the Content trait from Burdunellus and Peter, because they were historically ambitious usurpers against the Visigothic rulers of Spain, as suggested by @Symmachus AKA Pax Romana
+- Added one historical dux Syriae
+- Added one historical dux of Osrhoene
+- Added one historical vicar of Macedonia
+- Added one historical governor of Bithynia
+- Added one historical governor of Cappadocia
+- Added one historical governor of Cilicia
+- Added twelve historical Patriarchs of Jerusalem
+- Added two historical bishops of Jerusalem before the Council of Chalcedon
+- Added twenty-four historical Patriarchs of Antioch
+- Made Northern Italy actually become Aquileian in the second half of the sixth century
+- Added five historical Patriarchs of Aquileia
+
 
 BUGFIXES:
 - Fixed the Praetorian Guard's history, fixing the Western Scholae Palatinae decision
@@ -247,7 +286,18 @@ BUGFIXES:
 - Fixed the history of Kucha between 560 and 595
 - Fixed the Venedi tribe being of the Venedi culture rather Vistula-Veneti as their provinces
 - Removed remaining characters of the now unused Latin culture by turning them into Romans
+- Fixed Triarius not being holder of Thracian Goths
+- Fixed the history of b_anicius and b_terracina
+- Fixed the history of Avars, Obodrites, Kashgar and Himyar
+- Fixed some names in Iazyge namelist
+- Fixed Amalfi being republican-type holding
+- Fixed Mazandaran not having any holders after 531
+- Fixed history of Pisa and some Lombard duchies
+- Fixed Elemunding dynasty using newly added Augustulus CoA
 - Fixed the death by getting lost in the desert having no sound
+- Fixed the Gothic War appearing in the ledger in 476
+- Fixed the decision to mend the Acacian Schism being visible after the historical reunion
+- Fixed "Invasion of ---" being declarable on realms with legions
 
 2017-06-14 v0.9.12.1
 -----------------

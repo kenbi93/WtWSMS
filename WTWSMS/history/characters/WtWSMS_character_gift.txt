@@ -576,10 +576,10 @@
 	religion="nicene"
 	culture="roman"
 	father=20787
-	549.1.1={
+	509.1.1={
 		birth = yes
 	}
-	621.1.1={
+	581.1.1={
 		death = yes
 	}
 }
@@ -855,7 +855,7 @@
 31145 = {
 	name="Kuluk"
 	# Kuluk Kul
-	dynasty=10424434
+	dynasty=10424435
 	religion="arian"
 	culture="alan"
 	father=31144
@@ -1571,6 +1571,10 @@
 	culture="ethiopian"
 	130.1.1={
 		birth = yes
+		create_bloodline = {
+			type = solomon
+			has_dlc = "Holy Fury"
+		}
 	}
 	200.1.1={
 		death = yes

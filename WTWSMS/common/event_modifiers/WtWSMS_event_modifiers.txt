@@ -642,6 +642,13 @@ secret_illyran_pagan_community = {
 	}
 }
 
+secret_illyran_pagan_reformed_community = {
+	icon = 18
+	is_visible = {
+		society_member_of = secret_religious_society_illyran_pagan_reformed
+	}
+}
+
 secret_germanic_pagan_community = {
 	icon = 18
 	is_visible = {
@@ -935,6 +942,10 @@ failed_crops = {
 	temple_tax_modifier = -0.3
 	disease_defence = -0.5
 	icon = 60
+}
+visigothic_conversion = {
+	monthly_character_piety = 0.05
+	icon = 56
 }
 
 antiisaurian_revolt_timer = { icon = 1 }
